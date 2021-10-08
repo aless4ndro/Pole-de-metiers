@@ -1,0 +1,283 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="teci bois isolation: artisants menuiseries couverture">
+    <title>Tecibois</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+          <script src="https://kit.fontawesome.com/88f2d67988.js" crossorigin="anonymous"></script>
+          
+          <style>
+            .logo i{
+          padding-top: 5px;
+          height: 4px;
+          cursor: pointer;
+          font-size:2rem;
+          color: #ff4757;
+        }
+          </style>
+</head>
+<body>
+
+
+<!--Modal-->
+<div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="contactModalLabel">Nous contacter</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="email">Expéditeur</label>
+                            <input type="email" class="form-control" id="email" name="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Sujet</label>
+                            <input type="text" class="form-control" id="subject" name="subject">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" name="message" rows="3"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <!-- Classes qui permettent d'en délimiter la structure -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                     <!-- data-dismiss="modal" c'est grâce à cet attribut que ce bouton permettra de fermer la fenêtre -->
+                    <button type="button" class="btn btn-primary">Envoyer le message</button>
+                </div>
+            </div>
+        </div>
+     </div>
+
+           
+       
+
+
+<main class="container">
+    <div class="row">
+        <div class="col-12">
+           <!-- Déclaration du composant -->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+                <!-- Titre de la page -->
+                <a class="navbar-brand" href="#">Téci Bois Isolation</a>
+
+
+        <button
+        type="button"
+        class="navbar-toggler"
+        data-toggle="collapse"
+        data-target="#navbarNavDropdown"
+        arial-cotrols="navbarNavDropdown"
+        arial-expanded="Toggle navigation">
+
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+  <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+</svg>
+        </button>
+
+
+
+                 
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+                    <!-- Elements du menu -->
+                    <ul class="navbar-nav mr-auto">
+                        <!-- Elements du menu -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="https://teciboisisolation.fr/">Site web Officiel</a>
+                        </li>
+                         <!--Icon comeBack to home-->
+                         <div class="logo">
+                            <a href="index.html"> 
+                              <i class="fab fa-angrycreative"></i>
+                              <i class="fas fa-atom"></i>
+                            </a>
+                          </div>
+                    </ul>
+                   
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                    <form class="form-inline">
+                    <button class="btn btn-sm btn btn-light"  data-toggle="modal" data-target="#contactModal" type="button">Nous contacter</button>
+                </form>
+                </div>
+            </nav>
+        </div>
+    </div>
+  <div class="row">
+        <nav class="col-12" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Accueil</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Actualité</li>
+            </ol>
+        </nav>
+    </div>
+    <section>
+        <h2>Nos articles</h2>
+        <div class="row row-cols-1 row-cols-sm-2">
+            <article class="col p-2">
+                <div class="card">
+                    <img src="https://www.teciboisisolation.fr/sites/default/files/styles/largeur_de_la_page/public/2021-01/IMG_0526_opt.jpg?itok=44N6ysDh">
+                    <div class="card-body">
+                        <h5 class="card-title">Isolation des combles perdus</h5>
+                        <p class="card-text">
+                            Téci Bois & Isolation isole vos combles perdus en pulsant de la ouate de cellulose sur 350 mm d’épaisseur. La ouate de cellulose est un isolant bio-sourcé de fabrication française. Ainsi, vous optez pour une isolation naturelle de qualité, dont l’efficacité vous assure un confort été comme hiver bien supérieur aux isolants minéraux.
+                        </p>
+                        <a href="#" class="btn btn-secondary" data-toggle="modal" data-target="emailTitle">Lire la suite...</a>
+                    </div>
+                </div>
+            </article>
+            <article class="col p-2">
+                <div class="card">
+                    <img src="https://www.teciboisisolation.fr/sites/default/files/styles/largeur_de_la_page/public/2021-01/IMG_0962_opt.jpg?itok=q5fQpAw7" alt="IA" class="card-img-top rouded">
+                    <div class="card-body">
+                        <h5 class="card-title">Fenêtres en PVC</h5>
+                        <p class="card-text">
+                            Téci Bois & Isolation, entreprise certifiée QUALIBAT RGE, mettra à votre disposition toute son expérience et vous apportera conseils et professionnalisme dans la réalisation de votre projet de création ou de remplacement de vos fenêtres. Téci Bois & Isolation vous guidera sur les menuiseries les plus adaptées à votre habitation afin d'optimiser l’isolation thermique et les apports de chaleur et de lumière.
+                        </p>
+                        <a href="#" class="btn btn-secondary">Lire la suite...</a>
+                    </div>
+                </div>
+            </article>
+
+
+
+
+
+<div class="float-right">
+  <article class="col p-2">
+ <div class="card" style="width: 18rem;">
+  <img src="https://www.teciboisisolation.fr/sites/default/files/styles/largeur_de_la_page/public/2021-01/IMG_0082_0.JPG?itok=mL0HnDTh" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Couverture</h5>
+    <p class="card-text">Votre couverture protège et garantit votre habitation. Il est donc essentiel d'y apporter le plus grand soin en la maintenant en bon état (contrôle, remplacement des tuiles ou ardoises cassées et éventuellement démoussage).</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">Tuile</li>
+    <li class="list-group-item">Ardoise</li>
+    <li class="list-group-item">Démoussage</li>
+  </ul>
+  <div class="card-body">
+    <a href="https://www.teciboisisolation.fr/couverture-en-ardoise" class="card-link">Lien du site</a>
+  </div>
+ </div>
+  </article>
+ </div>
+
+
+
+
+
+
+            <article class="col p-2">
+                <div class="card">
+                    <img src="https://teciboisisolation.fr/sites/default/files/styles/largeur_de_la_page/public/2021-02/Sche%CC%81ma%20TECI15_0.jpg?itok=X3RAp_2r" alt="IA" class="card-img-top rouded">
+                    <div class="card-body">
+                        <h5 class="card-title">Mise à niveau</h5>
+                        <p class="card-text">
+                            Nous sommes à l'affût des nouveaux produits : innovants, plus responsables, écologiques et des nouvelles techniques de mise en œuvre auxquelles nous formons nos équipes.
+                        </p>
+                        <a href="#" class="btn btn-secondary">Lire la suite...</a>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+
+<nav aria-label="Pagination">
+  <ul class="pagination">
+    <li class="page-item">
+      <a href="#" class="page-link">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+  <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+</svg>
+ Précédent
+</a>
+</li>
+<li class="page-item">
+  <a href="#" class="page-link">
+    1
+  </a>
+</li>
+<li class="page-item">
+  <a href="#" class="page-link">
+    2
+  </a>
+</li>
+<li class="page-item">
+  <a href="#" class="page-link">
+    3
+  </a>
+</li>
+<li class="page-item">
+  <a href="#" class="page-link">
+    Suivant
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+  <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+</svg>
+</a>
+</li>
+</ul> 
+</nav>
+
+ 
+ 
+ 
+</main>
+
+<!-- Frozen ingredient
+<aside class="row">
+                <h2 class="col-12">Reboot of Humanity</h2>
+                <div class="alert alert-success col-12">
+                    <p>Some more efforts and the world will be better !</p>
+                     Définition du composant 
+                    <div class="progress">
+                        Barre de progrès, ici à 90% remplie
+                        <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60% / 100%</div>
+                    </div>
+                </div>
+            </aside>
+-->
+
+<footer class="card bg-dark text-secondaire">
+    <img class="card-img" src="https://teciboisisolation.fr/sites/default/files/styles/flexslider_full/public/2021-01/Carroussel%20TECI4.jpg?itok=fHwOvJzp" alt="Card image">
+    <div class="card-img-overlay">
+      <h5 class="card-title" style="font-size: 2rem;">Une Solution pour Tous!</h5>
+      <p class="card-text" style="font-size: 1.5rem;">Téci Bois & Isolation vous conseille et vous accompagne dans tous vos projets d'extension et d'aménagement.</p>
+      <a href="https://teciboisisolation.fr/"> <p class="card-text">Rendez-vous sur notre site Web</p></a>
+    </div>
+</footer>     
+
+     
+           
+
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+</html>
